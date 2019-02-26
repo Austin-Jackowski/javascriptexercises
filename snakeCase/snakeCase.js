@@ -1,6 +1,6 @@
 const snakeCase = function (string) {
   let filter = /[@.,/#!$%^&*;:{}=/-_`~()]/g
-  let filteredString = string.toLowerCase().replace(filter, '_')
+  let filteredString = string.toLowerCase().replace(filter, '')
   return filteredString
 }
 
